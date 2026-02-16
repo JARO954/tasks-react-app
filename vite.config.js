@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite"; // 1. Importa el plugin
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // 2. Activa el plugin
+    tailwindcss(), // 2. Activa el plugin de Tailwind
   ],
+  base: "/tasks-react-app/",
 });
